@@ -11,8 +11,5 @@ public class Aluno extends Pessoa {
     public String getCurso() { return curso; }
     public void setCurso(String curso) { this.curso = curso; }
 
-    @Override
-    public String getDescricao() {
-        return "Aluno do curso de " + curso;
-    }
+
 }

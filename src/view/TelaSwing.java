@@ -44,7 +44,7 @@ public class TelaSwing extends JFrame {
         formPanel.add(cadastrarBtn);
         formPanel.add(salvarEdicaoBtn);
 
-        salvarEdicaoBtn.setVisible(false); // escondido por padrão
+        salvarEdicaoBtn.setVisible(false);
 
         add(formPanel, BorderLayout.NORTH);
 
@@ -60,7 +60,7 @@ public class TelaSwing extends JFrame {
 
         atualizarTabela();
 
-        // Eventos
+
         cadastrarBtn.addActionListener(e -> cadastrar());
         salvarEdicaoBtn.addActionListener(e -> salvarEdicao());
 
