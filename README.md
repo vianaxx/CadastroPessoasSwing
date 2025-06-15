@@ -30,7 +30,7 @@ Este projeto foi desenvolvido como prática dos conceitos de Java, Programação
 1. **Clone o repositório**:
 
    ```bash
-   git clone https://github.com/seu-usuario/CadastroPessoasSwing.git
+   git clone https://github.com/vianaxx/CadastroPessoasSwing.git
 
 2. **Abra o projeto na sua IDE** (ex: IntelliJ IDEA)
 
