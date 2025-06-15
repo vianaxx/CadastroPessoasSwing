@@ -1,3 +1,4 @@
+---
 # 🧑‍💼 Cadastro de Pessoas em Java com Swing
 
 Este projeto foi desenvolvido como prática dos conceitos de Java, Programação Orientada a Objetos (POO) e persistência com arquivos. Ele possui uma interface gráfica feita com **Swing**, onde você pode cadastrar, editar, listar e excluir **Alunos** e **Professores**.
@@ -6,11 +7,11 @@ Este projeto foi desenvolvido como prática dos conceitos de Java, Programação
 
 ## 🎯 Funcionalidades
 
-- ✅ Cadastro de alunos e professores com nome, idade e curso/disciplina
-- ✅ Edição de dados clicando diretamente na tabela
-- ✅ Exclusão por ID
-- ✅ Listagem automática de todos os registros
-- ✅ Persistência com arquivos binários (`data/banco.dat`)
+- ✅ Cadastro de alunos e professores com nome, idade e curso/disciplina  
+- ✅ Edição de dados clicando diretamente na tabela  
+- ✅ Exclusão por ID (via campo de texto)  
+- ✅ Listagem automática de todos os registros  
+- ✅ Persistência com arquivos binários (`data/banco.dat`)  
 - ✅ Geração automática de IDs únicos
 
 ---
@@ -19,7 +20,7 @@ Este projeto foi desenvolvido como prática dos conceitos de Java, Programação
 
 ### 📦 Requisitos
 
-- Java 11 ou superior
+- Java 11 ou superior  
 - IntelliJ IDEA, VSCode ou terminal com suporte a compilação Java
 
 ---
@@ -28,7 +29,8 @@ Este projeto foi desenvolvido como prática dos conceitos de Java, Programação
 
 1. **Clone o repositório**:
 
-   git clone http://github.com/vianaxx/CadastroPessoasSwing.git
+   ```bash
+   git clone https://github.com/seu-usuario/CadastroPessoasSwing.git
 
 2. **Abra o projeto na sua IDE** (ex: IntelliJ IDEA)
 
@@ -36,35 +38,35 @@ Este projeto foi desenvolvido como prática dos conceitos de Java, Programação
 
 ---
 
-## 🧭 Guia Rápido da Interface
+## 📘 Como usar a interface
 
-A tela inicial exibe uma tabela com todos os cadastros já existentes (se houver).
+### 1. **Selecionar o tipo de pessoa**
 
-### ➕ Cadastrar nova pessoa
+Na parte superior, escolha **"Aluno"** ou **"Professor"** no menu suspenso.
 
-1. Selecione o tipo da pessoa no campo "Tipo" (Aluno ou Professor)
-2. Preencha os campos:
+### 2. **Preencher os campos**
 
-   * Nome
-   * Idade
-   * Curso (se Aluno) ou Disciplina (se Professor)
-3. Clique em **"Cadastrar"**
-4. A tabela será atualizada automaticamente
+* Nome
+* Idade
+* Curso (para Aluno) ou Disciplina (para Professor)
 
-### ✏️ Editar um registro existente
+### 3. **Cadastrar**
 
-1. Clique sobre uma linha da tabela
-2. Os dados serão carregados nos campos
-3. Faça as alterações desejadas
-4. Clique em **"Atualizar"**
+Clique em **"Cadastrar"**. A pessoa será adicionada à tabela e salva no arquivo automaticamente.
 
-### 🗑️ Remover por ID
+### 4. **Editar**
 
-1. Digite o **ID** no campo correspondente (parte inferior do formulário)
-2. Clique em **"Remover por ID"**
-3. O registro será removido da tabela e do arquivo
+1. Clique em uma linha da tabela para carregar os dados no formulário.
+2. Altere as informações desejadas.
+3. Clique em **"Atualizar"**.
 
-> 💾 As alterações são salvas automaticamente no arquivo `data/banco.dat`
+### 5. **Remover por ID**
+
+1. Pegue o **ID da pessoa** (coluna mais à esquerda da tabela).
+2. Digite esse número no campo **"ID para remover"**.
+3. Clique em **"Remover por ID"**.
+
+> As alterações são persistidas automaticamente no arquivo `data/banco.dat`.
 
 ---
 
@@ -79,8 +81,6 @@ CadastroPessoasSwing/
 ├── data/                → banco.dat (salvamento automático)
 ├── README.md
 ```
-
-
 ---
 
 ## 📚 Conceitos praticados
@@ -96,4 +96,8 @@ CadastroPessoasSwing/
 
 ## 📝 Licença
 
-Este projeto é livre para fins educacionais.
+Este projeto é para fins educacionais.
+
+---
+
+
