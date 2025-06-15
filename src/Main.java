@@ -1,0 +1,12 @@
+import view.MenuConsole;
+import view.TelaSwing;
+
+import javax.swing.*;
+
+public class Main {
+    public static void main(String[] args) {
+        SwingUtilities.invokeLater(() -> new TelaSwing().setVisible(true));
+
+
+    }
+}
